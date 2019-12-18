@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "buildUnitTests",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/nspec-sample.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

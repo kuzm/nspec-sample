@@ -1,0 +1,16 @@
+{
+   "version": "0.2.0",
+   "configurations": [
+        {
+            "name": "Unit Tests",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildUnitTests",
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp2.2/nspec-sample.dll",
+            "args": ["whack"],
+            "cwd": "${workspaceFolder}/bin/Debug/netcoreapp2.2/",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}
